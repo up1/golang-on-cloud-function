@@ -13,5 +13,5 @@ curl https://us-central1-gitlab-203909.cloudfunctions.net/hello
 How to load testing ?
 
 ```
-$hey -n 1000 -c 10 https://us-central1-gitlab-203909.cloudfunctions.net/hello
+$hey -n 5000 -c 10 https://us-central1-gitlab-203909.cloudfunctions.net/hello
 ```
